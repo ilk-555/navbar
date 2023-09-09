@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgb(131, 19, 19);
+  color: white;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 10px;
+}
+nav .text {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+nav .text .search input {
+  padding: 10px;
+}
+nav .text .search input::-moz-placeholder {
+  position: absolute;
+  left: 10px;
+}
+nav .text .search input::placeholder {
+  position: absolute;
+  left: 10px;
+}
+nav .text ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+nav .text ul li {
+  padding: 5px;
+}
+nav .text ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+}
+nav .simbol {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+nav .simbol p {
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+}
+nav .simbol img {
+  border-radius: 50%;
+  height: 30px;
+}
+nav .simbol .gap {
+  gap: 5px;
+  display: flex;
+}
+nav .active {
+  background: rgba(255, 255, 255, 0.3137254902);
+}
+nav .search {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+nav .search input::-moz-placeholder {
+  color: black;
+  position: absolute;
+  left: 0;
+  padding: 0 5px;
+}
+nav .search input::placeholder {
+  color: black;
+  position: absolute;
+  left: 0;
+  padding: 0 5px;
+}
+nav .search button {
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px 20px;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
